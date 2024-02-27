@@ -15,6 +15,9 @@ Technologies Used:
 8. RandomizedSearchCV (sklearn.model_selection.RandomizedSearchCV): Utility for hyperparameter optimization.
 
 Approach: 
-1. EDA: 
-2. Preprocessing 
-3. Model Selection and Training: 
+1. EDA: To begin exploring the banking dataset, I conducted EDA to identify relationships among variables and to gain insight into feature distributions.  
+2. Preprocessing: The dataset then underwent preprocessing to encode categorical variables and drop columns in the dataset that would not contribute to our predictive modeling.
+3. Model Selection and Training: Random Forest Classifier was chosen because of its ability to handle imbalanced datasets effectively. The Random Forest Classifier was trained on the preprocessed dataset, utilizing techniques such as cross-validation to optimize hyperparameters and prevent overfitting. The model was trained to maximize sensitivity to capture fraudulent transactions while maintaining a low false positive rate.
+
+Impact: 
+Implementing the developed Random Forest Classifier model can significantly enhance a bank's fraud detection capabilities. By identifying fraudulent transactions, the bank can mitigate financial losses and protect its customers from fraudulent activities, thereby fostering trust and confidence in its services.
